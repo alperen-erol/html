@@ -1,0 +1,33 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0;
+}
+.topbtm {
+  background-color: #3f3f3f;
+  color: white;
+  width: 100px;
+}
+.bir{
+    background-color: #cdcdcd;
+}
+.alisveris{
+color: white;
+
+}
+.div1{
+background-color: rgb(255, 121, 97);
+
+padding: 10px 10px;
+display: flex;
+
+align-items: center;
+}
+.fa-solid{
+  margin: 2px 8px 0px 0px;
+}
+.in{
+  display: flex;
+  justify-content: space-between;
+}
+

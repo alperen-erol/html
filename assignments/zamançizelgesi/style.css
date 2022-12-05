@@ -9,6 +9,12 @@
 text-align: center;
 width:100px ;
 }
+div{
+    background-color: aqua;
+    text-align: center;
+    margin:0px 185px 0px 300px ;   
+    position: fixed;
+}
 
 
 

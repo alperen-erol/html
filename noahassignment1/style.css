@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ul{   
+    text-align: center;
+}
+.lis{
+    display:inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    height: 20px;
+    width: 70px;
+    text-align: center;   
+    padding: 8px;
+    margin: 0px 12px;
+    background-color: rgb(255, 255, 255);
+}
+.lis:hover{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    cursor:pointer;
+    border-color: rgb(77, 77, 77);
+    
+}
