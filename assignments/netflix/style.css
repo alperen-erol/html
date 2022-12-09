@@ -1,0 +1,76 @@
+h1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    height: 55px;
+}
+h3{
+    color: white;
+}
+body{
+    background-image: url(ödev.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.anadiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    background-color: rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.7 );
+    padding: 20px 50px;
+    width: 400px;
+    margin:10px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+    .inputdiv{
+    margin: 10px 0px 10px 0px;
+}
+.wideinput{
+    width: 400px;
+    height: 45px;
+    border: 0px;
+}
+label{
+    font-size: 18px;
+    color: white;
+}
+.topdiv{
+    display: flex;
+    flex-direction: column;   
+}
+.halfbottom{
+    margin: 20px 0px 0px 0px;
+}
+.submitdiv{
+    text-align: center;
+}
+.submitbutton{
+    display: inline-block;
+    background-color: rgb(243, 6, 6);
+    text-align: center;
+    color: white;
+    padding: 15px;
+    width: 140px;
+    border-radius: 300px;
+    font-weight: 700;
+}
+::placeholder{
+    
+    
+}
+
