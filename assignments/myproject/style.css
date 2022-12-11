@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.maindiv{
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  
+}
+body{
+   background-color: rgb(24, 24, 24);
+}
+.topfixeddiv{
+    border: 1px solid rgb(109, 109, 109);
+    text-align: center;
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/New_York_City_at_night_HDR.jpg/1280px-New_York_City_at_night_HDR.jpg);
+    background-size: cover;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 3) 0px -3px 5px;
+}
+.cfm{
+    display: inline-block;
+    cursor: pointer;
+}
+.fixedmovies{
+    color: rgb(173, 173, 173);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.topmovie{
+    margin-top: 170px;
+     text-align: center;
+    font-size: 60px;
+    color: rgb(173, 173, 173);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.topdiv{
+    text-align: center;
+    font-size: 35px;
+}
+.middiv{
+    
+}
+.filmcontainer{
+    margin: 30px 60px;
+    display: flex; 
+    height: 900px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.film{
+    width: 330px;
+    height: 520px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 20px 30px;
+    box-shadow:50px crimson;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.thorimg{
+   width: 320px;
+   margin-top: 15px;
+   box-shadow: 50 30px 40px rgb(8, 8, 8);
+}
+

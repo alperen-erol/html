@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
 h1{
     color: white;
     font-family: 'Bebas Neue', cursive;
@@ -10,10 +15,7 @@ h3{
 body{
     background-image: url(ödev.jpg);
 }
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .anadiv{
     display: flex;
     flex-direction: column;
@@ -70,7 +72,7 @@ label{
     font-weight: 700;
 }
 ::placeholder{
-    
-    
+    padding: 20px;
+    background-color: ;
 }
 
